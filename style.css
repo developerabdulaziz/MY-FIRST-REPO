@@ -1,3 +1,4 @@
+/*
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -10,6 +11,7 @@ h1 {
 }
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 .top-banner {
     background-image: url(images/top-banner.png);
@@ -22,10 +24,54 @@ section {
 .half-width img {
     width: 80%;
 }
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: bold;
+    text-transform: uppercase;
+}*/
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+.komola {
+    color: orange;
+}
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+.banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.fast {
+    width: 50%;
+    padding-left: 5%;
+}
+.fast img {
+    width: 80%;
+}
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

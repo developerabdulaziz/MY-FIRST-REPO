@@ -76,6 +76,7 @@ section {
     background-position: right;
 }
 */
+/*
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -115,4 +116,39 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.orange {
+    color: orange;
+}
+h1 {
+    font-size: 60px;
+}
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.main {
+    width: 50%;
+    margin-left: 10px;
+}
+.main img {
+    width: 80%;
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 15px;
+    padding: 10px 40px;
 }

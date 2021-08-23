@@ -119,7 +119,7 @@ section {
 }
 */
 
-body {
+/*body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -186,4 +186,39 @@ h2 {
 footer p {
     text-align: center;
     
+}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    display: flex;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 50px;
+}
+.orange {
+    color: orange;
+}
+.half-width {
+    width: 50%;
+    
+}
+.half-width img {
+    width: 80%;
+    
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 15px;
+    padding: 10px 40px;
 }
